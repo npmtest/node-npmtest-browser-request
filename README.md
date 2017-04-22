@@ -1,4 +1,7 @@
-# test coverage for  [browser-request (v0.3.3)](http://github.com/iriscouch/browser-request)  [![npm package](https://img.shields.io/npm/v/npmtest-browser-request.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-browser-request) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-browser-request.svg)](https://travis-ci.org/npmtest/node-npmtest-browser-request)
+# npmtest-browser-request
+
+#### basic test-coverage for  [browser-request (v0.3.3)](http://github.com/iriscouch/browser-request)  [![npm package](https://img.shields.io/npm/v/npmtest-browser-request.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-browser-request) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-browser-request.svg)](https://travis-ci.org/npmtest/node-npmtest-browser-request)
+
 #### Browser port of the Node.js 'request' package
 
 [![NPM](https://nodei.co/npm/browser-request.png?downloads=true&downloadRank=true&stars=true)](https://www.npmjs.com/package/browser-request)
@@ -32,65 +35,34 @@
 ```json
 
 {
+    "name": "browser-request",
+    "version": "0.3.3",
     "author": {
         "name": "Jason Smith"
     },
-    "bugs": {
-        "url": "https://github.com/iriscouch/browser-request/issues"
-    },
-    "contributors": [
-        {
-            "name": "Jason Smith Work"
-        },
-        {
-            "name": "Jason Smith"
-        },
-        {
-            "name": "maxogden"
-        },
-        {
-            "name": "Abbey Sparrow via Google"
-        }
-    ],
-    "dependencies": {},
     "description": "Browser port of the Node.js 'request' package",
-    "devDependencies": {
-        "beefy": "~0.4.0",
-        "browserify": "~2.25.0",
-        "tape": "~1.0.4"
-    },
-    "directories": {},
-    "dist": {
-        "shasum": "9ece5b5aca89a29932242e18bf933def9876cc17",
-        "tarball": "https://registry.npmjs.org/browser-request/-/browser-request-0.3.3.tgz"
-    },
-    "engines": [
-        "node"
-    ],
-    "homepage": "http://github.com/iriscouch/browser-request",
     "keywords": [
         "request",
         "http",
         "browser",
         "browserify"
     ],
-    "maintainers": [
-        {
-            "name": "jhs"
-        },
-        {
-            "name": "maxogden"
-        }
-    ],
-    "name": "browser-request",
-    "optionalDependencies": {},
+    "homepage": "http://github.com/iriscouch/browser-request",
     "repository": {
         "type": "git",
-        "url": "git://github.com/iriscouch/browser-request.git"
+        "url": "git://github.com/iriscouch/browser-request"
     },
     "scripts": {
         "test": "beefy test.js"
     },
+    "devDependencies": {
+        "tape": "~1.0.4",
+        "beefy": "~0.4.0",
+        "browserify": "~2.25.0"
+    },
+    "engines": [
+        "node"
+    ],
     "testling": {
         "files": "test.js",
         "browsers": [
@@ -105,7 +77,7 @@
             "ipad/6"
         ]
     },
-    "version": "0.3.3"
+    "bin": {}
 }
 ```
 
